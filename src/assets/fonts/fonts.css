@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Acumin;
+  font-weight: 400;
+  font-style: normal;
+  src: url("Acumin-RPro.otf") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Acumin;
+  font-weight: 400;
+  font-style: italic;
+  src: url("Acumin-ItPro.otf") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Acumin;
+  font-weight: 700;
+  font-style: normal;
+  src: url("Acumin-BdPro.otf") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Acumin;
+  font-weight: 700;
+  font-style: italic;
+  src: url("Acumin-BdItPro.otf") format("woff2");
+  font-display: swap;
+}
