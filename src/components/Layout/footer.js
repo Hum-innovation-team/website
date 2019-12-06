@@ -6,10 +6,10 @@ import footerLogo from "../../assets/images/footer-logo.png"
 
 export default function Footer() {
   const {
-    markdownRemark: { frontmatter },
+    mdx: { frontmatter },
   } = useStaticQuery(graphql`
-    query ContentByID {
-      markdownRemark(frontmatter: { id: { eq: "footer" } }) {
+    query footerQuery {
+      mdx(frontmatter: { id: { eq: "footer" } }) {
         frontmatter {
           location
           contacts
@@ -22,7 +22,7 @@ export default function Footer() {
     <footer
       style={{
         width: "80%",
-        margin: "0 auto",
+        margin: "5rem auto 0 auto",
         borderTop: "0.125rem solid #3d1300",
         paddingTop: "2.75rem",
         display: "flex",
@@ -44,8 +44,8 @@ export default function Footer() {
           alt="logo footer"
           style={{ alignSelf: "baseline" }}
         />
-        <p style={{ width: "9.75rem" }}>{frontmatter.location}</p>
-        <p style={{ width: "7.25rem" }}>{frontmatter.contacts}</p>
+        <span style={{ width: "9.75rem" }}>{frontmatter.location}</span>
+        <span style={{ width: "7.25rem" }}>{frontmatter.contacts}</span>
       </div>
       <span>{`©${new Date().getFullYear()} @${
         frontmatter.copyCompanyName

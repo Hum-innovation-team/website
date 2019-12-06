@@ -140,6 +140,7 @@ button::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
+
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring,
@@ -237,8 +238,9 @@ h1 {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
-  line-height: 1.1;
+  color: #3d1300;
+  font-size: 10rem;
+  line-height: 10rem;
 }
 h2 {
   margin-left: 0;
@@ -254,8 +256,9 @@ h2 {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
-  line-height: 1.1;
+  color: #430f00;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
 h3 {
   margin-left: 0;
@@ -388,6 +391,12 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  font-family: "Acumin";
+  color: #3d1300;
+  font-size: 1.375rem;
+  font-weight: 300;
+  letter-spacing: 0.043rem;
+  line-height: 2rem;
 }
 figure {
   margin-left: 0;

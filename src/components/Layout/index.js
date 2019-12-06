@@ -10,9 +10,10 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Footer from "./footer"
+import "./normalize.css"
 import "./index.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, style }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -32,7 +33,16 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <main>{children}</main>
+        <main
+          style={{
+            maxWidth: "80%",
+            paddingTop: "4.5rem",
+            margin: "0 auto",
+            ...(style || {}),
+          }}
+        >
+          {children}
+        </main>
         <Footer />
       </div>
     </>

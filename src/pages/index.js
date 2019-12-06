@@ -1,21 +1,38 @@
 import React from "react"
-import { Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
+import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXProvider } from "@mdx-js/react"
 
 import Layout from "../components/Layout"
-import Image from "../components/image"
+import { GenericLink } from "../components/buttons"
 import SEO from "../components/seo"
+import "./index.css"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p style={{ fontFamily: "Acumin" }}>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+function HomeBody({ children }) {
+  return <div style={{ width: "70%", marginTop: "4rem" }}>{children}</div>
+}
+
+const shortcodes = { GenericLink, HomeBody }
+
+const IndexPage = () => {
+  const {
+    mdx: { body },
+  } = useStaticQuery(graphql`
+    query indexQuery {
+      mdx(frontmatter: { id: { eq: "home" } }) {
+        body
+      }
+    }
+  `)
+
+  return (
+    <Layout>
+      <SEO />
+      <MDXProvider components={shortcodes}>
+        <MDXRenderer>{body}</MDXRenderer>
+      </MDXProvider>
+    </Layout>
+  )
+}
 
 export default IndexPage

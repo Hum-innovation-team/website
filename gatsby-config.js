@@ -5,6 +5,48 @@ module.exports = {
     author: `@hum`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [".mdx", ".md"],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: "gatsby-remark-custom-blocks",
+            options: {
+              blocks: {
+                "home-text": {
+                  classes: "home-text",
+                },
+              },
+            },
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1400,
+              backgroundColor: "none",
+            },
+          },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
+          },
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
+        ],
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1400,
+              backgroundColor: "none",
+            },
+          },
+        ],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -29,7 +71,7 @@ module.exports = {
         name: `content`,
       },
     },
-    {
+    /*  {
       resolve: `gatsby-transformer-remark`,
       options: {
         // CommonMark mode (default: true)
@@ -42,6 +84,16 @@ module.exports = {
         gfm: true,
         // Plugins configs
         plugins: [
+          {
+            resolve: "gatsby-remark-custom-blocks",
+            options: {
+              blocks: {
+                danger: {
+                  classes: "danger",
+                },
+              },
+            },
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -58,7 +110,7 @@ module.exports = {
           `gatsby-remark-smartypants`,
         ],
       },
-    },
+    }, */
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
