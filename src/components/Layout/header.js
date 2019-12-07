@@ -7,6 +7,7 @@ import logo from "../../assets/images/logo.png"
 const NavItem = ({ to, children, style }) => (
   <Link
     to={to}
+    partiallyActive
     style={{
       color: colors.brown,
       fontSize: "1rem",
