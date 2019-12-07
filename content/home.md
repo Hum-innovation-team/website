@@ -4,7 +4,9 @@ id: "home"
 
 # innovation needs, hum it!
 
-<GenericLink to="/zone">scopri di più</GenericLink>
+<AlignRight>
+  <GenericLink to="/zone">scopri di più</GenericLink>
+</AlignRight>
 
 ![box](../src/assets/images/home-box.png)
 

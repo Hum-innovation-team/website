@@ -5,6 +5,7 @@ import { MDXProvider } from "@mdx-js/react"
 
 import Layout from "../components/Layout"
 import { GenericLink } from "../components/buttons"
+import { AlignRight } from "../components/alignments"
 import SEO from "../components/seo"
 import "./index.css"
 
@@ -12,7 +13,7 @@ function HomeBody({ children }) {
   return <div style={{ width: "70%", marginTop: "4rem" }}>{children}</div>
 }
 
-const shortcodes = { GenericLink, HomeBody }
+const shortcodes = { GenericLink, HomeBody, AlignRight }
 
 const IndexPage = () => {
   const {

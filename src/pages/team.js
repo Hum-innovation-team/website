@@ -1,16 +1,57 @@
 import React from "react"
-import { Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
+import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXProvider } from "@mdx-js/react"
 
 import Layout from "../components/Layout"
+import { GenericLink } from "../components/buttons"
 import SEO from "../components/seo"
+import HeaderLogo from "../components/HeaderLogo"
+import "./team.css"
 
-const SecondPage = () => (
-  <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
-)
+function TeamBody({ children }) {
+  return (
+    <div style={{ display: "flex" }} className="team-body">
+      {children}
+    </div>
+  )
+}
 
-export default SecondPage
+function TeamHeader({ children }) {
+  return (
+    <div
+      style={{
+        display: "flex",
+        alignItems: "flex-start",
+        marginBottom: "10rem",
+      }}
+    >
+      {children}
+    </div>
+  )
+}
+
+const shortcodes = { GenericLink, TeamHeader, TeamBody, HeaderLogo }
+
+const IndexPage = () => {
+  const {
+    mdx: { body },
+  } = useStaticQuery(graphql`
+    query teamQuery {
+      mdx(frontmatter: { id: { eq: "team" } }) {
+        body
+      }
+    }
+  `)
+
+  return (
+    <Layout>
+      <SEO />
+      <MDXProvider components={shortcodes}>
+        <MDXRenderer>{body}</MDXRenderer>
+      </MDXProvider>
+    </Layout>
+  )
+}
+
+export default IndexPage

@@ -13,6 +13,7 @@ export default function Footer() {
         frontmatter {
           location
           contacts
+          copyCompanyName
         }
       }
     }
