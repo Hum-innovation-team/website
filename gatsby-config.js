@@ -6,6 +6,7 @@ module.exports = {
     author: `@hum`,
   },
   plugins: [
+    "gatsby-plugin-linaria",
     {
       resolve: `gatsby-plugin-mdx`,
       options: {

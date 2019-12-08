@@ -1,0 +1,6 @@
+.expert-section2 {
+  display: flex;
+}
+.expert-section2 > * {
+  flex: 1;
+}
