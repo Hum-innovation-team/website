@@ -1,0 +1,15 @@
+name: Deploy
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Building the website
+      run: |
+        yarn global add gatsby-cli
+        yarn install
+        yarn run deploy
