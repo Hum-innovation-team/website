@@ -8,7 +8,6 @@ import Layout from "../components/Layout"
 import { GenericLink, Submit } from "../components/buttons"
 import SEO from "../components/seo"
 import HeaderLogo from "../components/HeaderLogo"
-import "./contacts.css"
 
 const submit = css`
   background-color: #3d1300;
@@ -22,15 +21,21 @@ const submit = css`
   border: none;
 `
 
+const contactsBody = css`
+  display: flex;
+  flex-direction: row;
+
+  > * {
+    flex: 1;
+  }
+
+  @media only screen and (max-width: 750px) {
+    flex-direction: column;
+  }
+`
+
 function ContactsBody({ children }) {
-  return (
-    <div
-      style={{ display: "flex", flexDirection: "row" }}
-      className="contacts-body"
-    >
-      {children}
-    </div>
-  )
+  return <div className={contactsBody}>{children}</div>
 }
 
 const input = css`
@@ -112,9 +117,15 @@ function FormField({ type, placeholder }) {
   )
 }
 
+const form = css`
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+`
+
 function ContactsForm() {
   return (
-    <form>
+    <form className={form}>
       <FormField type="text" placeholder="nome" />
       <FormField type="text" placeholder="cognome" />
       <FormField type="text" placeholder="indirizzo e-mail" />

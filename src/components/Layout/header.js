@@ -40,10 +40,14 @@ const Header = () => {
             <img
               src={logo}
               alt="Logo"
-              style={{ margin: 0, verticalAlign: "middle" }}
+              style={{
+                width: "7rem",
+                margin: "0 3rem 0 0",
+                verticalAlign: "middle",
+              }}
             />
           </Link>
-          <nav style={{ margin: "0 3rem" }}>
+          <nav>
             <NavItem to="/zone">.zone</NavItem>
             <NavItem to="/expert">.expert</NavItem>
             <NavItem to="/team">.team</NavItem>
