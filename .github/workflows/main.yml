@@ -8,7 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Building the website
-      run: |
-        npm i
-        npm run deploy
+      - uses: actions/checkout@v1
+      - name: Building the website
+        run: |
+          npm i
+          npm run deploy
