@@ -13,3 +13,4 @@ jobs:
         yarn global add gatsby-cli
         yarn install
         yarn run deploy
+      working-directory: ../
