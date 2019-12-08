@@ -1,14 +1,26 @@
-name: Deploy
+name: Update website
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
+      - name: Checkout
+        uses: actions/checkout@v1
+
       - name: Building the website
         run: |
           yarn
-          yarn run deploy
+          yarn run build
+
+      - name: Deploying the website
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          BASE_BRANCH: master # The branch the action should deploy from.
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: publich # The folder the action should deploy.
