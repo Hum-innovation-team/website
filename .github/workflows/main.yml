@@ -10,7 +10,6 @@ jobs:
     steps:
     - name: Building the website
       run: |
-        ls
-        yarn global add gatsby-cli
-        yarn install
-        yarn run deploy
+        npm i -g gatsby-cli
+        npm i
+        npm run deploy
