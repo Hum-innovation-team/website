@@ -2,32 +2,30 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { MDXProvider } from "@mdx-js/react"
+import { css } from "linaria"
 
 import Layout from "../components/Layout"
 import { Accordion } from "../components/buttons"
 import SEO from "../components/seo"
-import { AlignRight } from "../components/alignments"
+import { AlignRight, LeftParagraph } from "../components/alignments"
 import HeaderLogo from "../components/HeaderLogo"
-import "./expert.css"
+
+const expertSection2 = css`
+  display: flex;
+  > * {
+    flex: 1;
+  }
+`
 
 function ExpertBody({ children }) {
   return (
-    <div
-      style={{ display: "flex", flexDirection: "column" }}
-      className="expert-body"
-    >
-      {children}
-    </div>
+    <div style={{ display: "flex", flexDirection: "column" }}>{children}</div>
   )
-}
-
-function ExpertSection1({ children }) {
-  return <div style={{ width: "60%" }}>{children}</div>
 }
 
 function ExpertSection2({ children }) {
   return (
-    <div className="expert-section2" style={{ marginTop: "4rem" }}>
+    <div className={expertSection2} style={{ marginTop: "4rem" }}>
       {children}
     </div>
   )
@@ -51,7 +49,7 @@ const shortcodes = {
   Accordion,
   ExpertHeader,
   ExpertBody,
-  ExpertSection1,
+  LeftParagraph,
   ExpertSection2,
   HeaderLogo,
   AlignRight,

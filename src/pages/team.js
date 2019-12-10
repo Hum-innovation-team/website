@@ -2,16 +2,22 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { MDXProvider } from "@mdx-js/react"
+import { css } from "linaria"
 
 import Layout from "../components/Layout"
 import { GenericLink } from "../components/buttons"
 import SEO from "../components/seo"
 import HeaderLogo from "../components/HeaderLogo"
-import "./team.css"
+
+const teamBody = css`
+  > * {
+    flex: 1;
+  }
+`
 
 function TeamBody({ children }) {
   return (
-    <div style={{ display: "flex" }} className="team-body">
+    <div style={{ display: "flex" }} className={teamBody}>
       {children}
     </div>
   )

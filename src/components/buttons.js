@@ -1,7 +1,6 @@
 /* eslint-disable import/prefer-default-export */
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import { css } from "linaria"
 
 import styles from "./buttons.module.css"
 

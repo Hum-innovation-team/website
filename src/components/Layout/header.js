@@ -51,7 +51,8 @@ const Header = () => {
             <NavItem to="/zone">.zone</NavItem>
             <NavItem to="/expert">.expert</NavItem>
             <NavItem to="/team">.team</NavItem>
-            <NavItem to="/codes">.codes</NavItem>
+            {/*  TODO           <NavItem to="/codes">.codes</NavItem>
+             */}
             <NavItem
               to="/contacts"
               style={{
