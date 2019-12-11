@@ -2,26 +2,12 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { MDXProvider } from "@mdx-js/react"
-import { css } from "linaria"
 
 import Layout from "../components/Layout"
 import { GenericLink } from "../components/buttons"
 import SEO from "../components/seo"
 import HeaderLogo from "../components/HeaderLogo"
-
-const teamBody = css`
-  > * {
-    flex: 1;
-  }
-`
-
-function TeamBody({ children }) {
-  return (
-    <div style={{ display: "flex" }} className={teamBody}>
-      {children}
-    </div>
-  )
-}
+import TitledParagraph from "../components/TitledParagraph"
 
 function TeamHeader({ children }) {
   return (
@@ -37,7 +23,7 @@ function TeamHeader({ children }) {
   )
 }
 
-const shortcodes = { GenericLink, TeamHeader, TeamBody, HeaderLogo }
+const shortcodes = { GenericLink, TeamHeader, TitledParagraph, HeaderLogo }
 
 const IndexPage = () => {
   const {

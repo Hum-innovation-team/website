@@ -9,21 +9,7 @@ import { GenericLink } from "../components/buttons"
 import SEO from "../components/seo"
 import { LeftParagraph } from "../components/alignments"
 import HeaderLogo from "../components/HeaderLogo"
-
-const zoneSection = css`
-  margin-top: 5rem;
-  > * {
-    flex: 1;
-  }
-`
-
-function ZoneSection({ children }) {
-  return (
-    <div style={{ display: "flex" }} className={zoneSection}>
-      {children}
-    </div>
-  )
-}
+import TitledParagraph from "../components/TitledParagraph"
 
 function ZoneHeader({ children }) {
   return (
@@ -42,9 +28,11 @@ function ZoneHeader({ children }) {
 const shortcodes = {
   GenericLink,
   ZoneHeader,
-  ZoneSection,
+  TitledParagraph,
   HeaderLogo,
-  LeftParagraph,
+  LeftParagraph: ({ children }) => (
+    <LeftParagraph margin={{ marginTop: "5rem" }}>{children}</LeftParagraph>
+  ),
 }
 
 const IndexPage = () => {

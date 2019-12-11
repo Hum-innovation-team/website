@@ -2,7 +2,7 @@
 id: "expert"
 ---
 
-<ExpertHeader>
+<PageHeader>
 
 <div>
 
@@ -14,7 +14,7 @@ May not machines carry out something which ought to be described as thinking but
 
 <HeaderLogo />
 
-</ExpertHeader>
+</PageHeader>
 
 <ExpertBody>
 
@@ -24,11 +24,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, l
 
 </LeftParagraph>
 
-<ExpertSection2>
+<TitledParagraph>
 
 ## Consulenza professionale nella gestione delle attività e-commerce.
 
-<div style="margin: 0 2rem;">
+<div>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod congue eu, accumsan vitae leo. Donec ut dolor ac metus vulputate volutpat. Vestibulum viverra semper convallis. In nec est vitae risus tempor consectetur.
 
@@ -36,7 +36,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, l
 
 </div>
 
-</ExpertSection2>
+</TitledParagraph>
 
 <AlignRight>
   <Accordion label="HUM .management">

@@ -16,7 +16,7 @@ May not machines carry out something which ought to be described as thinking but
 
 </TeamHeader>
 
-<TeamBody>
+<TitledParagraph>
 
 ## Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod
 
@@ -29,4 +29,4 @@ Duis venenatis lectus orci, in lobortis ante feugiat vel.
 
 </div>
 
-</TeamBody>
+</TitledParagraph>

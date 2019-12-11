@@ -1,6 +1,6 @@
 export default function NotFound() {
   if (typeof window !== "undefined") {
-    window.location = "/"
+    window.location = "/website"
   }
 
   return null

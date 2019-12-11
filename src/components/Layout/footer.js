@@ -1,8 +1,18 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import { css } from "linaria"
 
 import * as colors from "../../shared/constants/colors"
 import footerLogo from "../../assets/images/footer-logo.png"
+
+const footerLogoStyle = css`
+  @media only screen and (max-width: 750px) {
+    width: 50px;
+  }
+  @media only screen and (max-width: 580px) {
+    display: none;
+  }
+`
 
 export default function Footer() {
   const {
@@ -22,6 +32,7 @@ export default function Footer() {
   return (
     <footer
       style={{
+        maxWidth: "1940px",
         width: "80%",
         margin: "5rem auto 0 auto",
         borderTop: "0.125rem solid #3d1300",
@@ -37,12 +48,13 @@ export default function Footer() {
         style={{
           display: "flex",
           width: "32.5rem",
-          justifyContent: "space-between",
+          justifyContent: "space-around",
         }}
       >
         <img
           src={footerLogo}
           alt="logo footer"
+          className={footerLogoStyle}
           style={{ alignSelf: "baseline" }}
         />
         <span style={{ width: "9.75rem" }}>{frontmatter.location}</span>

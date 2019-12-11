@@ -1,8 +1,53 @@
 import { Link } from "gatsby"
 import React from "react"
+import { css } from "linaria"
 
 import * as colors from "../../shared/constants/colors"
 import logo from "../../assets/images/logo.png"
+
+const rightSlogan = css`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media only screen and (max-width: 750px) {
+    display: none;
+  }
+`
+
+const nav = css`
+  margin: 0 auto;
+  max-width: 1940px;
+  width: 82%;
+  height: 7.5rem;
+  margin-bottom: 1.45rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  > div:first-child {
+    display: flex;
+    align-items: flex-end;
+    > a > img {
+      width: 7rem;
+      margin: 0 3rem 0 0;
+      vertical-align: middle;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    width: 95%;
+    justify-content: center;
+    > div:first-child {
+      align-items: center;
+      flex-direction: column;
+
+      > a > img {
+        margin: 0 0 1rem 0;
+      }
+    }
+  }
+`
 
 const NavItem = ({ to, children, style }) => (
   <Link
@@ -24,35 +69,16 @@ const NavItem = ({ to, children, style }) => (
 const Header = () => {
   return (
     <div style={{ width: "100%", backgroundColor: "#fff" }}>
-      <header
-        style={{
-          margin: "0 auto",
-          maxWidth: "82%",
-          height: "7.5rem",
-          marginBottom: `1.45rem`,
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between",
-        }}
-      >
-        <div style={{ display: "flex", alignItems: "flex-end" }}>
+      <header className={nav}>
+        <div>
           <Link to="/">
-            <img
-              src={logo}
-              alt="Logo"
-              style={{
-                width: "7rem",
-                margin: "0 3rem 0 0",
-                verticalAlign: "middle",
-              }}
-            />
+            <img src={logo} alt="Logo" />
           </Link>
           <nav>
             <NavItem to="/zone">.zone</NavItem>
             <NavItem to="/expert">.expert</NavItem>
             <NavItem to="/team">.team</NavItem>
-            {/*  TODO           <NavItem to="/codes">.codes</NavItem>
-             */}
+            {/* TODO <NavItem to="/codes">.codes</NavItem> */}
             <NavItem
               to="/contacts"
               style={{
@@ -65,13 +91,7 @@ const Header = () => {
           </nav>
         </div>
 
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
+        <div className={rightSlogan}>
           <p
             style={{
               textAlign: "right",

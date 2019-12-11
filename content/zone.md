@@ -20,12 +20,9 @@ May not machines carry out something which ought to be described as thinking but
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod congue eu, accumsan vitae leo. Donec ut dolor ac metus vulputate volutpat. Vestibulum viverra semper convallis. In nec est vitae risus tempor consectetur. Duis venenatis lectus orci, in lobortis ante feugiat vel. Duis placerat tincidunt erat a consectetur. Praesent at aliquam nisl. Sed elementum feugiat lacus, et sodales ex dictum sit amet.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod congue eu, accumsan vitae leo. Donec ut dolor ac metus vulputate volutpat. Vestibulum viverra semper convallis. In nec est vitae risus tempor consectetur.
-Duis venenatis lectus orci, in lobortis ante feugiat vel.
-
 </LeftParagraph>
 
-<ZoneSection>
+<TitledParagraph>
 
 ## Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod
 
@@ -36,9 +33,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, l
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod congue eu, accumsan vitae leo. Donec ut dolor ac metus vulputate volutpat. Vestibulum viverra semper convallis. In nec est vitae risus tempor consectetur.
 Duis venenatis lectus orci, in lobortis ante feugiat vel.
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod congue eu, accumsan vitae leo. Donec ut dolor ac metus vulputate volutpat. Vestibulum viverra semper convallis. In nec est vitae risus tempor consectetur.
+Duis venenatis lectus orci, in lobortis ante feugiat vel.
+
 </div>
 
-</ZoneSection>
+</TitledParagraph>
 
 <LeftParagraph>
 
@@ -58,7 +58,7 @@ Duis venenatis lectus orci, in lobortis ante feugiat vel.
 
 </LeftParagraph>
 
-<ZoneSection>
+<TitledParagraph>
 
 ## Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod.
 
@@ -68,9 +68,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, l
 
 </div>
 
-</ZoneSection>
+</TitledParagraph>
 
-<ZoneSection>
+<TitledParagraph>
 
 ## Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod.
 
@@ -80,4 +80,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, l
 
 </div>
 
-</ZoneSection>
+</TitledParagraph>

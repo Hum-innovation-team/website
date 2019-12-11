@@ -35,7 +35,8 @@ const Layout = ({ children, style }) => {
       >
         <main
           style={{
-            maxWidth: "80%",
+            width: "80%",
+            maxWidth: "1900px",
             paddingTop: "4.5rem",
             margin: "0 auto",
             ...(style || {}),

@@ -1,4 +1,5 @@
 import React from "react"
+import { css } from "linaria"
 
 export function AlignRight({ children }) {
   return (
@@ -18,8 +19,19 @@ export function AlignLeft({ children }) {
   return <div style={{ textAlign: "left" }}>{children}</div>
 }
 
+const leftParagraph = css`
+  width: 60%;
+  @media only screen and (max-width: 750px) {
+    width: 100%;
+  }
+`
+
 export function LeftParagraph({ children, margin }) {
-  return <div style={{ width: "60%", margin }}>{children}</div>
+  return (
+    <div className={leftParagraph} style={{ ...margin }}>
+      {children}
+    </div>
+  )
 }
 
 export function AlignCenter({ children }) {

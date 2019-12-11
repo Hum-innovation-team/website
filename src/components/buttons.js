@@ -1,6 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import React, { useState } from "react"
 import { Link } from "gatsby"
+import { css } from "linaria"
 
 import styles from "./buttons.module.css"
 
@@ -12,6 +13,16 @@ export function GenericLink({ children, iconElement, to }) {
     </Link>
   )
 }
+
+const accordionText = css`
+  width: 70%;
+  text-align: left;
+  align-self: flex-end;
+
+  @media only screen and (max-width: 750px) {
+    width: 100%;
+  }
+`
 
 export function Accordion({ children, iconElement, label }) {
   const [open, setOpen] = useState(false)
@@ -36,12 +47,10 @@ export function Accordion({ children, iconElement, label }) {
           flexDirection: "column",
           overflow: "hidden",
           transition: "max-height .3s ease-in-out",
-          ...(open ? { maxHeight: "50rem" } : { maxHeight: "0rem" }),
+          ...(open ? { maxHeight: "120rem" } : { maxHeight: "0rem" }),
         }}
       >
-        <div style={{ width: "70%", textAlign: "left", alignSelf: "flex-end" }}>
-          {children}
-        </div>
+        <div className={accordionText}>{children}</div>
       </div>
     </>
   )
