@@ -2,7 +2,7 @@
 id: "team"
 ---
 
-<TeamHeader>
+<PageHeader>
 
 <div>
 
@@ -14,7 +14,7 @@ Il matematico Alan Turing nella prima metà del '900, si è chiesto se _**"le ma
 
 <HeaderLogo />
 
-</TeamHeader>
+</PageHeader>
 
 <TitledParagraph>
 

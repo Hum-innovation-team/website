@@ -2,7 +2,6 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { MDXProvider } from "@mdx-js/react"
-import { css } from "linaria"
 
 import Layout from "../components/Layout"
 import { GenericLink } from "../components/buttons"
@@ -10,24 +9,11 @@ import SEO from "../components/seo"
 import { LeftParagraph } from "../components/alignments"
 import HeaderLogo from "../components/HeaderLogo"
 import TitledParagraph from "../components/TitledParagraph"
-
-function ZoneHeader({ children }) {
-  return (
-    <div
-      style={{
-        display: "flex",
-        alignItems: "flex-start",
-        marginBottom: "10rem",
-      }}
-    >
-      {children}
-    </div>
-  )
-}
+import PageHeader from "../components/PageHeader"
 
 const shortcodes = {
   GenericLink,
-  ZoneHeader,
+  PageHeader,
   TitledParagraph,
   HeaderLogo,
   LeftParagraph: ({ children }) => (

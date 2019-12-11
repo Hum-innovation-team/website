@@ -2,7 +2,7 @@
 id: "zone"
 ---
 
-<ZoneHeader>
+<PageHeader>
 
 <div>
 
@@ -14,7 +14,7 @@ _"Il ragionamento può essere considerato come l'esercizio di una combinazione d
 
 <HeaderLogo />
 
-</ZoneHeader>
+</PageHeader>
 
 <LeftParagraph>
 

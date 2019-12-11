@@ -8,22 +8,9 @@ import { GenericLink } from "../components/buttons"
 import SEO from "../components/seo"
 import HeaderLogo from "../components/HeaderLogo"
 import TitledParagraph from "../components/TitledParagraph"
+import PageHeader from "../components/PageHeader"
 
-function TeamHeader({ children }) {
-  return (
-    <div
-      style={{
-        display: "flex",
-        alignItems: "flex-start",
-        marginBottom: "10rem",
-      }}
-    >
-      {children}
-    </div>
-  )
-}
-
-const shortcodes = { GenericLink, TeamHeader, TitledParagraph, HeaderLogo }
+const shortcodes = { GenericLink, PageHeader, TitledParagraph, HeaderLogo }
 
 const IndexPage = () => {
   const {
