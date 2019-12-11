@@ -101,12 +101,12 @@ function FormField({ type, placeholder }) {
         style={
           value
             ? {
-                top: " 1rem",
-                fontSize: " 0.75rem",
-                opacity: " 1",
-                color: " #430f00",
-                fontWeight: " 700",
-                textTransform: " uppercase",
+                top: "1rem",
+                fontSize: "0.75rem",
+                opacity: "1",
+                color: "#430f00",
+                fontWeight: "700",
+                textTransform: "uppercase",
               }
             : null
         }
@@ -126,10 +126,16 @@ const form = css`
 function ContactsForm() {
   return (
     <form className={form}>
-      <FormField type="text" placeholder="nome" />
-      <FormField type="text" placeholder="cognome" />
+      <FormField type="text" placeholder="il tuo nome" />
+      <FormField type="text" placeholder="il tuo cognome" />
       <FormField type="text" placeholder="indirizzo e-mail" />
-      <textarea className={input} type="textarea" placeholder="Nome" />
+      <FormField type="text" placeholder="nome azienda (facoltativo)" />
+      <FormField type="text" placeholder="telefono (facoltativo)" />
+      <textarea
+        className={input}
+        type="textarea"
+        placeholder="Scrivi qui la tua richiesta, le tue idee e le tue necessità "
+      />
       <Submit value="Invia" className={submit} />
     </form>
   )

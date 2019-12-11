@@ -8,7 +8,7 @@ id: "team"
 
 # .team
 
-May not machines carry out something which ought to be described as thinking but which is very different from what a man does?
+Il matematico Alan Turing nella prima metà del '900, si è chiesto se _**"le macchine sono in grado di pensare"**_. Oggi, il team di HUM mette il proprio lavoro a servizio di questa domanda, sviluppando innovazioni con l'obiettivo di avvicinare le performance tecnologiche alle necessità umane.
 
 </div>
 
@@ -18,14 +18,11 @@ May not machines carry out something which ought to be described as thinking but
 
 <TitledParagraph>
 
-## Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod
+## Chi siamo
 
 <div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod congue eu, accumsan vitae leo. Donec ut dolor ac metus vulputate volutpat. Vestibulum viverra semper convallis. In nec est vitae risus tempor consectetur. Duis venenatis lectus orci, in lobortis ante feugiat vel. Duis placerat tincidunt erat a consectetur. Praesent at aliquam nisl. Sed elementum feugiat lacus, et sodales ex dictum sit amet.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod congue eu, accumsan vitae leo. Donec ut dolor ac metus vulputate volutpat. Vestibulum viverra semper convallis. In nec est vitae risus tempor consectetur.
-Duis venenatis lectus orci, in lobortis ante feugiat vel.
+La squadra di HUM è pronta per soddisfare le necessità del progetto che viene affidato: programmatori, it expert, grafici, project manager, esperti legali, designer, ux expert, marketing specialist lavorano per far dialogare intelligenze digitali ed esigenze di aziende, business e piattaforme.
 
 </div>
 

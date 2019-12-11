@@ -12,8 +12,9 @@ id: "home"
 
 <HomeBody>
 
-## Lorem ipsum dolor sit amet, lorem consectetur adipiscing sed elit.
+## HUM, tecnologia e intuizione.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod congue eu, accumsan vitae leo. Donec ut dolor ac metus vulputate volutpat. Vestibulum viverra semper convallis. In nec est vitae risus tempor consectetur.
+Creiamo architetture web per l'innovazione e realizziamo siti, app e progetti 
+per trasformare il presente e generare il futuro.
 
 </HomeBody>

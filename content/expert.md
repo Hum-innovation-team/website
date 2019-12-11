@@ -8,7 +8,7 @@ id: "expert"
 
 # .expert
 
-May not machines carry out something which ought to be described as thinking but which is very different from what a man does?
+_Quando la tecnica incontra l'intuizione, diventa innovazione.<br/>Quando la competenza incontra la tenacia, diventa risultato.<br/>Quando il presente incontra l'immaginazione, diventa futuro._
 
 </div>
 
@@ -20,7 +20,9 @@ May not machines carry out something which ought to be described as thinking but
 
 <LeftParagraph>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod congue eu, accumsan vitae leo. Donec ut dolor ac metus vulputate volutpat. Vestibulum viverra semper convallis. In nec est vitae risus tempor consectetur. Duis venenatis lectus orci, in lobortis ante feugiat vel. Duis placerat tincidunt erat a consectetur. Praesent at aliquam nisl. Sed elementum feugiat lacus, et sodales ex dictum sit amet.
+Il termine HUM, in inglese, indica un **suono di fondo discreto e persistente**, che accompagna il momento presente con costanza, senza mai essere troppo forte, né troppo debole.
+È proprio in questo modo che HUM affianca il tuo business, elaborando percorsi orientati alla crescita, all'evoluzione e alla trasformazione produttiva.
+**Realizzazione di piattaforme e-commerce, consulenza per la gestione e management di progetti**
 
 </LeftParagraph>
 
@@ -30,9 +32,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, l
 
 <div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod congue eu, accumsan vitae leo. Donec ut dolor ac metus vulputate volutpat. Vestibulum viverra semper convallis. In nec est vitae risus tempor consectetur.
+HUM mette a disposizione del tuo business la propria conoscenza e la propria esperienza professionale, nella creazione, nello sviluppo e nella gestione del tuo webproject.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod congue eu, accumsan vitae leo. Donec ut dolor ac metus vulputate volutpat. Vestibulum viverra semper convallis. In nec est vitae risus tempor consectetur.
+Ogni step di sviluppo sarà frutto di un attento lavoro eseguito da figure professionali specializzate e gestite da HUM. L'esperienza di HUM ti garantirà il miglior risultato per la crescita del tuo business.
 
 </div>
 
@@ -41,12 +43,32 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, l
 <AlignRight>
   <Accordion label="HUM .management">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod congue eu, accumsan vitae leo. Donec ut dolor ac metus vulputate volutpat. Vestibulum viverra semper convallis. In nec est vitae risus tempor consectetur.
+_"Gatto del Cheshire" Alice cominciò "mi diresti per favore, che strada dovrei prendere da qui?"_
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod congue eu, accumsan vitae leo. Donec ut dolor ac metus vulputate volutpat. Vestibulum viverra semper convallis. In nec est vitae risus tempor consectetur.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod congue eu, accumsan vitae leo. Donec ut dolor ac metus vulputate volutpat. Vestibulum viverra semper convallis. In nec est vitae risus tempor consectetur.
+_"Dipende da dove vuoi arrivare" disse il Gatto._
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, luctus euismod congue eu, accumsan vitae leo. Donec ut dolor ac metus vulputate volutpat. Vestibulum viverra semper convallis. In nec est vitae risus tempor consectetur. Duis venenatis lectus orci, in lobortis ante feugiat vel. Duis placerat tincidunt erat a consectetur. Praesent at aliquam nisl. Sed elementum feugiat lacus, et sodales ex dictum sit amet.
+_L. Carrol_
+
+È proprio con spirito sempre focalizzato sull'obiettivo che HUM si approccia al project management, occupandosi di tutti gli aspetti necessari per la realizzazione di percorsi articolati e progettazioni multiformi, accompagnando il cliente lungo la miglior strada, tenendo presente il monito del Gatto ad Alice: la differenza la fa dove si vuole andare.
+
+HUM sa tenere gli occhi fissi sul dove, e sa che la forza di un progetto è la sua definizione temporale limitata: aprire e chiudere, sviluppare e sintetizzare. HUM sa anche che, dove risiede la forza, risiede la sfida: grazie all'organizzazione flessibile, al team attivato su necessità del progetto stesso, alla suddivisione del lavoro in base alle competenze e all'organizzazione, HUM è in grado di prendere decisioni, farle eseguire in modo efficace e portare a casa risultati unici, proprio come è unico ogni progetto ... e ogni cliente.
+
+In particolare, HUM gestisce:
+
+<div>
+
+- l’analisi preliminare e la progettazione architettonica del sistema/piattaforma/sito
+- l'attivazione e il coordinamento del team necessario al progetto
+- il coordinamento della realizzazione di web products: siti, applicazioni, e-commerce, piattaforme
+- il dialogo operativo con tutte le professionalità coinvolte
+- consulenza completa per aspetti legali
+- la ricerca di bandi, fondi e finanziamenti che possano agevolare la realizzazione del progetto
+- studi e approfondimenti utili per valorizzare al massimo il prodotto creato
+- relazioni con partner
+
+</div>
+
+Chi realizza tutto questo? <Link to="/team">Conosci il team</Link>
 
   </Accordion>
 </AlignRight>

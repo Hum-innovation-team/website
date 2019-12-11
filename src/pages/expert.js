@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { MDXProvider } from "@mdx-js/react"
 
@@ -25,6 +25,7 @@ const shortcodes = {
   TitledParagraph,
   HeaderLogo,
   AlignRight,
+  Link,
 }
 
 const IndexPage = () => {

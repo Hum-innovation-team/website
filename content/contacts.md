@@ -8,9 +8,9 @@ id: "contacts"
 
 <div>
 
-## Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+## Ora vogliamo sapere di te. Stai cercando il posto giusto per realizzare un progetto innovativo sia dal punto di vista tecnico che di contenuti e performance?
 
-Vivamus neque libero, luctus euismod congue eu, accumsan vitae leo. Donec ut dolor ac metus vulputate volutpat. Vestibulum viverra semper convallis. In nec est vitae risus tempor consectetur. Duis venenatis lectus orci, in lobortis ante feugiat vel. Duis placerat tincidunt erat a consectetur. Praesent at aliquam nisl. Sed elementum feugiat lacus, et sodales ex dictum sit amet.
+Entra in contatto con HUM! Compila il form, verrai subito contattato: non vediamo l'ora di ascoltare le tue idee, i tuoi progetti e le tue sfide!
 
 </div>
 

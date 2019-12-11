@@ -47,7 +47,7 @@ export function Accordion({ children, iconElement, label }) {
           flexDirection: "column",
           overflow: "hidden",
           transition: "max-height .3s ease-in-out",
-          ...(open ? { maxHeight: "120rem" } : { maxHeight: "0rem" }),
+          ...(open ? { maxHeight: "150rem" } : { maxHeight: "0rem" }),
         }}
       >
         <div className={accordionText}>{children}</div>
