@@ -1,8 +1,7 @@
 module.exports = {
-  pathPrefix: "/website",
   siteMetadata: {
     title: `HUM - innovation needs, hum it!`,
-    description: `Lorem description ipsum.`,
+    description: `Hum`,
     author: `@hum`,
   },
   plugins: [
@@ -73,46 +72,6 @@ module.exports = {
         name: `content`,
       },
     },
-    /*  {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        // CommonMark mode (default: true)
-        commonmark: true,
-        // Footnotes mode (default: true)
-        footnotes: true,
-        // Pedantic mode (default: true)
-        pedantic: true,
-        // GitHub Flavored Markdown mode (default: true)
-        gfm: true,
-        // Plugins configs
-        plugins: [
-          {
-            resolve: "gatsby-remark-custom-blocks",
-            options: {
-              blocks: {
-                danger: {
-                  classes: "danger",
-                },
-              },
-            },
-          },
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 590,
-            },
-          },
-          {
-            resolve: `gatsby-remark-responsive-iframe`,
-            options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
-            },
-          },
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
-        ],
-      },
-    }, */
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
