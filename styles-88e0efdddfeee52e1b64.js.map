@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/components/buttons.module.css"],"names":["module","exports"],"mappings":"0KACAA,EAAOC,QAAU,CAAC,cAAgB,yC","file":"styles-88e0efdddfeee52e1b64.js","sourcesContent":["// extracted by mini-css-extract-plugin\nmodule.exports = {\"genericButton\":\"buttons-module--genericButton--JDChV\"};"],"sourceRoot":""}
