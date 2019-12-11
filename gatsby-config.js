@@ -12,16 +12,6 @@ module.exports = {
         extensions: [".mdx", ".md"],
         gatsbyRemarkPlugins: [
           {
-            resolve: "gatsby-remark-custom-blocks",
-            options: {
-              blocks: {
-                "home-text": {
-                  classes: "home-text",
-                },
-              },
-            },
-          },
-          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1400,
@@ -75,7 +65,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-154448556-1`,
       },
     },
     {
