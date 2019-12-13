@@ -5745,6 +5745,13 @@ gatsby-plugin-google-analytics@^2.1.29:
   dependencies:
     "@babel/runtime" "^7.7.4"
 
+gatsby-plugin-google-tagmanager@^2.1.20:
+  version "2.1.20"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-2.1.20.tgz#3d79de1c79005a2a5fa36fc6f6e5e92a6176a585"
+  integrity sha512-q0gOIIjsQYtuaNsRkwrD+ivXE6FA20Fgs6C77m97QMswet2xEZt+hUn3snHb84jjenRk9kac5Df8cpTlZ3kBCA==
+  dependencies:
+    "@babel/runtime" "^7.7.6"
+
 gatsby-plugin-linaria@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-linaria/-/gatsby-plugin-linaria-2.0.0.tgz#387be2e4e9a28b763695755e39b2f17953151d04"
@@ -5882,14 +5889,6 @@ gatsby-remark-copy-linked-files@^2.1.31:
     path-is-inside "^1.0.2"
     probe-image-size "^4.1.1"
     unist-util-visit "^1.4.1"
-
-gatsby-remark-custom-blocks@^2.1.19:
-  version "2.1.19"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-custom-blocks/-/gatsby-remark-custom-blocks-2.1.19.tgz#b80e84b0ad2870b2b1bed0f23aa4c21dc21ec420"
-  integrity sha512-fluByoHdCqYRiZpRb2myGJk9zAyF35BPnV5GYvC8TawpqDgvhTpeSYb9T8gHU7mIuX9DY99JvVS2nINUm3mYqw==
-  dependencies:
-    "@babel/runtime" "^7.7.4"
-    remark-custom-blocks "^2.4.2"
 
 gatsby-remark-images@^3.1.35:
   version "3.1.35"
@@ -11288,13 +11287,6 @@ regjsparser@^0.6.0:
   dependencies:
     jsesc "~0.5.0"
 
-remark-custom-blocks@^2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/remark-custom-blocks/-/remark-custom-blocks-2.4.2.tgz#028607d66ee2073547609e9ac7ba3a7de70357bb"
-  integrity sha512-muyoRvKqTsrackpGiLE9GGC7YbMJeuv0CJQrUeXhZ21QWpmsj1nsB7QdwJHs/fKNbaCLS7Wj46xNGMktKuwABA==
-  dependencies:
-    space-separated-tokens "^1.1.1"
-
 remark-mdx@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/remark-mdx/-/remark-mdx-1.5.1.tgz#df176c69b0d22fca890812cb828a100d5c14ae60"
@@ -12266,7 +12258,7 @@ source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.1:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-space-separated-tokens@^1.0.0, space-separated-tokens@^1.1.1:
+space-separated-tokens@^1.0.0:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/space-separated-tokens/-/space-separated-tokens-1.1.4.tgz#27910835ae00d0adfcdbd0ad7e611fb9544351fa"
   integrity sha512-UyhMSmeIqZrQn2UdjYpxEkwY9JUrn8pP+7L4f91zRzOQuI8MF1FGLfYU9DKCYeLdo7LXMxwrX5zKFy7eeeVHuA==
