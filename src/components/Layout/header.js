@@ -17,8 +17,7 @@ const rightSlogan = css`
 
 const nav = css`
   margin: 0 auto;
-  max-width: 1940px;
-  width: 82%;
+  max-width: 1200px;
   height: 7.5rem;
   margin-bottom: 1.45rem;
   display: flex;

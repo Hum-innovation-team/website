@@ -5,6 +5,7 @@ const pageHeader = css`
   display: flex;
   align-items: flex-start;
   margin-bottom: 6rem;
+  justify-content: space-between;
 
   @media only screen and (max-width: 750px) {
     flex-direction: column-reverse;

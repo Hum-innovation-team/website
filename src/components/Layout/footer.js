@@ -32,8 +32,7 @@ export default function Footer() {
   return (
     <footer
       style={{
-        maxWidth: "1940px",
-        width: "80%",
+        maxWidth: "1200px",
         margin: "5rem auto 0 auto",
         borderTop: "0.125rem solid #3d1300",
         paddingTop: "2.75rem",
