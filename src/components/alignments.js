@@ -20,7 +20,7 @@ export function AlignLeft({ children }) {
 }
 
 const leftParagraph = css`
-  width: 60%;
+  max-width: 800px;
   @media only screen and (max-width: 750px) {
     width: 100%;
   }
