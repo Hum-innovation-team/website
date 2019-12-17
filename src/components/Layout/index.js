@@ -35,7 +35,7 @@ const Layout = ({ children, style, maxWidth }) => {
       >
         <main
           style={{
-            maxWidth: maxWidth || "1050px",
+            maxWidth: maxWidth || "1096px",
             paddingTop: "4.5rem",
             margin: "0 auto",
             ...(style || {}),

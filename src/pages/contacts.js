@@ -130,16 +130,17 @@ const form = css`
 function ContactsForm() {
   return (
     <form className={form}>
-      <FormField type="text" placeholder="il tuo nome" />
-      <FormField type="text" placeholder="il tuo cognome" />
+      <FormField type="text" placeholder="Il tuo nome e cognome" />
       <FormField type="text" placeholder="indirizzo e-mail" />
+      {/* <FormField type="text" placeholder="il tuo cognome" />
       <FormField type="text" placeholder="nome azienda (facoltativo)" />
-      <FormField type="text" placeholder="telefono (facoltativo)" />
+      <FormField type="text" placeholder="telefono (facoltativo)" /> */}
       <textarea
         style={{ padding: "1rem" }}
         className={input}
         type="textarea"
-        placeholder="Scrivi qui la tua richiesta, le tue idee e le tue necessità "
+        rows="6"
+        placeholder="Scrivi qui la tua richiesta"
       />
       <Submit value="Invia" className={submit} />
     </form>
