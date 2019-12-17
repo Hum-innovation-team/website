@@ -35,7 +35,6 @@ export default function Footer() {
     query footerQuery {
       mdx(frontmatter: { id: { eq: "footer" } }) {
         frontmatter {
-          location
           info
           piva
           societyData
