@@ -50,7 +50,7 @@ HUM crea architetture per siti web e app, realizza piattaforme e-commerce, si oc
 
 </LeftParagraph>
 
-<TitledParagraph>
+<LeftParagraph>
 
 ## Project management
 
@@ -60,9 +60,9 @@ HUM crea architetture per siti web e app, realizza piattaforme e-commerce, si oc
 
 </div>
 
-</TitledParagraph>
+</LeftParagraph>
 
-<TitledParagraph>
+<LeftParagraph>
 
 ## Ricerca e sviluppo
 
@@ -72,9 +72,9 @@ HUM crea architetture per siti web e app, realizza piattaforme e-commerce, si oc
 
 </div>
 
-</TitledParagraph>
+</LeftParagraph>
 
-<TitledParagraph>
+<LeftParagraph>
 
 ## Formazione
 
@@ -84,4 +84,4 @@ HUM crea architetture per siti web e app, realizza piattaforme e-commerce, si oc
 
 </div>
 
-</TitledParagraph>
+</LeftParagraph>
