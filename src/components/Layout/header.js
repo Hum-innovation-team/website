@@ -16,10 +16,10 @@ const rightSlogan = css`
 `
 
 const nav = css`
-  margin: 0 auto;
+  margin: 0 auto  1.45rem;
+  padding: 0 2rem
   max-width: 1200px;
   height: 7.5rem;
-  margin-bottom: 1.45rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
