@@ -14,6 +14,20 @@ const footerLogoStyle = css`
   }
 `
 
+const usefulLinks = css`
+  width: 6.1rem;
+
+  > a {
+    text-decoration: none;
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.028rem;
+    line-height: 1.125rem;
+    color: #3d1300;
+  }
+`
+
 export default function Footer() {
   const {
     mdx: { frontmatter },
@@ -22,8 +36,10 @@ export default function Footer() {
       mdx(frontmatter: { id: { eq: "footer" } }) {
         frontmatter {
           location
-          contacts
-          copyCompanyName
+          info
+          piva
+          societyData
+          privacyPolicy
         }
       }
     }
@@ -56,12 +72,25 @@ export default function Footer() {
           className={footerLogoStyle}
           style={{ alignSelf: "baseline" }}
         />
-        <span style={{ width: "9.75rem" }}>{frontmatter.location}</span>
-        <span style={{ width: "7.25rem" }}>{frontmatter.contacts}</span>
+        <div className={usefulLinks}>
+          <a
+            href={frontmatter.societyData}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dati societari
+          </a>
+          <a
+            href={frontmatter.privacyPolicy}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Privacy policy
+          </a>
+        </div>
+        <span style={{ width: "8.875rem" }}>{frontmatter.info}</span>
       </div>
-      <span>{`©${new Date().getFullYear()} @${
-        frontmatter.copyCompanyName
-      }`}</span>
+      <span>{`P.IVA ${frontmatter.piva}`}</span>
     </footer>
   )
 }

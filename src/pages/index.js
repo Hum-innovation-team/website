@@ -37,7 +37,7 @@ const IndexPage = () => {
   `)
 
   return (
-    <Layout>
+    <Layout maxWidth="1136px">
       <SEO />
       <MDXProvider components={shortcodes}>
         <MDXRenderer>{body}</MDXRenderer>

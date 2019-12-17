@@ -34,8 +34,6 @@ Il termine HUM, in inglese, indica un **suono di fondo discreto e persistente**,
 
 HUM mette a disposizione del tuo business la propria conoscenza e la propria esperienza professionale, nella creazione, nello sviluppo e nella gestione del tuo webproject.
 
-Ogni step di sviluppo sarà frutto di un attento lavoro eseguito da figure professionali specializzate e gestite da HUM. L'esperienza di HUM ti garantirà il miglior risultato per la crescita del tuo business.
-
 </div>
 
 </TitledParagraph>
@@ -68,7 +66,7 @@ In particolare, HUM gestisce:
 
 </div>
 
-Chi realizza tutto questo? <Link to="/team">Conosci il team</Link>
+<Link to="/team">Ad occuparci di tutto questo, ci siamo noi</Link>
 
   </Accordion>
 </AlignRight>

@@ -13,7 +13,7 @@ import Footer from "./footer"
 import "./normalize.css"
 import "./index.css"
 
-const Layout = ({ children, style }) => {
+const Layout = ({ children, style, maxWidth }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -35,7 +35,7 @@ const Layout = ({ children, style }) => {
       >
         <main
           style={{
-            maxWidth: "1050px",
+            maxWidth: maxWidth || "1050px",
             paddingTop: "4.5rem",
             margin: "0 auto",
             ...(style || {}),

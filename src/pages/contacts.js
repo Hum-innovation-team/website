@@ -13,11 +13,11 @@ const submit = css`
   background-color: #3d1300;
   color: #fff;
   width: 11.125rem;
+  height: 5rem;
   align-self: flex-end;
   margin: 1.5rem 0;
   font-family: "Acumin";
   font-size: 1.5rem;
-  padding: 2rem;
   border: none;
 `
 
@@ -57,7 +57,7 @@ const input = css`
 `
 
 const formField = css`
-  margin: 1.5rem 0;
+  margin: 0.625rem 0;
   position: relative;
 
   > small {
@@ -121,6 +121,10 @@ const form = css`
   margin-left: 2rem;
   display: flex;
   flex-direction: column;
+
+  > textarea {
+    margin-top: 0.625rem;
+  }
 `
 
 function ContactsForm() {
@@ -132,6 +136,7 @@ function ContactsForm() {
       <FormField type="text" placeholder="nome azienda (facoltativo)" />
       <FormField type="text" placeholder="telefono (facoltativo)" />
       <textarea
+        style={{ padding: "1rem" }}
         className={input}
         type="textarea"
         placeholder="Scrivi qui la tua richiesta, le tue idee e le tue necessità "
