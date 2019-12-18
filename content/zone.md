@@ -41,7 +41,7 @@ HUM crea architetture per siti web e app, realizza piattaforme e-commerce, si oc
 **HUM progetta e realizza e-commerce B2B e B2C, trova le soluzioni tecniche e strategiche più idonee**.
 Grazie a partnership consolidate, fornisce consulenza in tutti gli aspetti di realizzazionee gestione di un progetto ecommerce o app, sia online che offline:
 
-Analisi pre e post rilascio del progetto */* Esposizione dei dati strategici e reportistica mirata alla misurazione dei dati di prestazione (KPI) */* Integrazione dei dati */* Interfacce intelligenti e funzionali */* Architetture e user experience innovative e concrete */* Consulenze legali relative alle normative di diversi Paesi e pratiche necessarie per commercializzare con l'estero */* Consulenza sull’organizzazione aziendale */* Consulenza sui fattori determinati del post rilascio del progetto e digitalizzazione dei processi */* Web e social media marketing
+Analisi pre e post rilascio del progetto **/** Esposizione dei dati strategici e reportistica mirata alla misurazione dei dati di prestazione (KPI) **/** Integrazione dei dati **/** Interfacce intelligenti e funzionali **/** Architetture e user experience innovative e concrete **/** Consulenze legali relative alle normative di diversi Paesi e pratiche necessarie per commercializzare con l'estero **/** Consulenza sull’organizzazione aziendale **/** Consulenza sui fattori determinati del post rilascio del progetto e digitalizzazione dei processi **/** Web e social media marketing
 
 </LeftParagraph>
 
