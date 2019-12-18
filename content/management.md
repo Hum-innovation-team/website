@@ -18,9 +18,11 @@ _L. Carrol_<br/>
 
 </PageHeader>
 
-È proprio con spirito sempre focalizzato sull'**obiettivo** che HUM si approccia al **project management**, si occupa di tutti gli aspetti necessari alla realizzazione di percorsi articolati e progettazioni multiformi, e accompagna il cliente lungo la miglior strada, tenendo presente il monito del Gatto ad Alice: **la differenza la fa dove si vuole andare.**
+È proprio con spirito sempre focalizzato sull’obiettivo che HUM si approccia al **project management**: si occupa di tutti gli aspetti necessari per la realizzazione di percorsi articolati, e accompagna il cliente lungo la miglior strada, tenendo sempre presente il monito del Gatto ad Alice: **la differenza la fa dove si vuole andare**.
 
-HUM sa tenere gli occhi fissi sul **dove**, e sa che la forza di un progetto è la sua **definizione temporale limitata**: aprire e chiudere, sviluppare e sintetizzare. HUM sa anche che, **dove risiede la forza, risiede la sfida**: grazie all'organizzazione flessibile, al team attivato su necessità del progetto stesso, alla suddivisione del lavoro in base alle competenze e all'organizzazione, HUM è in grado di prendere decisioni, farle eseguire in modo efficace e portare a casa risultati unici, **proprio come è unico ogni progetto ... e ogni cliente**.
+La forza di HUM è **tenere gli occhi fissi sul dove** e, per farlo, ha deciso di mixare le metodologie scientifiche di project management - metodo waterfall e metodo agile - scegliendo di volta in volta gli elementi di ciascuno più idonei al progetto in corso e al team che lo sviluppa. L'unico aspetto a cui non rinuncia mai è il **creare microprogetti** che incrementano la funzionalità complessive (iterazioni), la capacità di adattarsi con forza alla necessità.
+HUM sa anche che, **dove risiede la forza, risiede la sfida**: grazie all’organizzazione flessibile, al team attivato su necessità del progetto, alla suddivisione del lavoro in base alle competenze e all’organizzazione, è in grado di prendere decisioni, farle eseguire in modo efficace e portare a casa risultati unici, **proprio come è unico ogni progetto … e ogni cliente**. 
+
 
 **In particolare, HUM gestisce:**
 
