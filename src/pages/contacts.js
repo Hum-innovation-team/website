@@ -86,12 +86,13 @@ const formField = css`
   }
 `
 
-function FormField({ type, placeholder }) {
+function FormField({ type, placeholder, name }) {
   const [value, setValue] = useState("")
 
   return (
     <div className={formField}>
       <input
+        name={name}
         className={input}
         type={type}
         value={value}
@@ -129,9 +130,9 @@ const form = css`
 
 function ContactsForm() {
   return (
-    <form className={form}>
-      <FormField type="text" placeholder="Il tuo nome e cognome" />
-      <FormField type="text" placeholder="indirizzo e-mail" />
+    <form className={form} method="POST" action="https://formspree.io/mqkeazpw">
+      <FormField type="text" placeholder="Il tuo nome e cognome" name="name" />
+      <FormField type="text" placeholder="indirizzo e-mail" name="_replyto" />
       {/* <FormField type="text" placeholder="il tuo cognome" />
       <FormField type="text" placeholder="nome azienda (facoltativo)" />
       <FormField type="text" placeholder="telefono (facoltativo)" /> */}
@@ -141,6 +142,7 @@ function ContactsForm() {
         type="textarea"
         rows="6"
         placeholder="Scrivi qui la tua richiesta"
+        name="message"
       />
       <Submit value="Invia" className={submit} />
     </form>
