@@ -134,8 +134,12 @@ function ContactsForm() {
       <FormField type="text" placeholder="Il tuo nome e cognome" name="name" />
       <FormField type="text" placeholder="indirizzo e-mail" name="_replyto" />
       {/* <FormField type="text" placeholder="il tuo cognome" />
-      <FormField type="text" placeholder="nome azienda (facoltativo)" />
-      <FormField type="text" placeholder="telefono (facoltativo)" /> */}
+      <FormField type="text" placeholder="nome azienda (facoltativo)" /> */}
+      <FormField
+        type="text"
+        placeholder="telefono (facoltativo)"
+        name="phone"
+      />
       <textarea
         style={{ padding: "1rem" }}
         className={input}
