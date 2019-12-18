@@ -38,7 +38,10 @@ HUM crea architetture per siti web e app, realizza piattaforme e-commerce, si oc
 
 ## Creazione e-commerce: sviluppo, potenziamento e gestione
 
-**HUM progetta e realizza e-commerce B2B e B2C, trova le soluzioni tecniche e strategiche più idonee** e, grazie a partnership consolidate, anche su aspetti legali relativi alle normative di diversi Paesi e pratiche necessarie per commercializzare con l'estero. HUM sa quanto tutto questo percorso sia da svolgere con minuziosità e competenza, sempre a fianco del cliente: anche per questo, collaboriamo con partner per fornire consulenze di marketing.
+**HUM progetta e realizza e-commerce B2B e B2C, trova le soluzioni tecniche e strategiche più idonee**.
+Grazie a partnership consolidate, fornisce consulenza in tutti gli aspetti di realizzazionee gestione di un progetto ecommerce o app, sia online che offline:
+
+Analisi pre e post rilascio del progetto */* Esposizione dei dati strategici e reportistica mirata alla misurazione dei dati di prestazione (KPI) */* Integrazione dei dati */* Interfacce intelligenti e funzionali */* Architetture e user experience innovative e concrete */* Consulenze legali relative alle normative di diversi Paesi e pratiche necessarie per commercializzare con l'estero */* Consulenza sull’organizzazione aziendale */* Consulenza sui fattori determinati del post rilascio del progetto e digitalizzazione dei processi */* Web e social media marketing
 
 </LeftParagraph>
 
@@ -56,7 +59,7 @@ HUM crea architetture per siti web e app, realizza piattaforme e-commerce, si oc
 
 <div>
 
-**La forza di HUM è la gestione di progetti complessi e di tutte le risorse ad essi necessarie: risorse umane ed economiche, planning e strategia, programmazione e controllo.** Lavoriamo con il focus fisso sugli obiettivi, con strumenti che ci permettono di essere on time e on budget, e con la flessibilità che consente al cliente di contenere i costi. Questa esperienza, consolidata negli anni anche grazie a partnership affidabili e strutturate, rende forti noi e i nostri clienti.
+**La forza di HUM è la gestione di progetti complessi e di tutte le risorse ad essi necessarie: risorse umane ed economiche, planning e strategia, programmazione e controllo.** Lavoriamo con il focus fisso sugli obiettivi, con strumenti che ci permettono di essere on time e on budget, e con la flessibilità che consente al cliente di contenere i costi. Questa esperienza, consolidata negli anni anche grazie a partnership affidabili e strutturate, rende forte la squadra e i clienti. 
 
 </div>
 
