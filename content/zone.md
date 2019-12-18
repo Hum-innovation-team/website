@@ -18,7 +18,7 @@ _"Il ragionamento può essere considerato come l'esercizio di una combinazione d
 
 <LeftParagraph>
 
-HUM crea architetture per siti web e app, realizza piattaforme e-commerce, si occupa di ricerca e sviluppo e cura ogni aspetto del project management, utilizzando due capacità: **intuizione e ingegnosità** a disposizione di aziende, business e team.
+HUM crea architetture per siti web e app, realizza piattaforme e-commerce, si occupa di ricerca e sviluppo e cura ogni aspetto del project management, utilizzando due capacità: **intuizione e ingegnosità**, a disposizione di aziende, business e team.
 
 </LeftParagraph>
 
@@ -38,7 +38,7 @@ HUM crea architetture per siti web e app, realizza piattaforme e-commerce, si oc
 
 ## Creazione e-commerce: sviluppo, potenziamento e gestione
 
-**HUM progetta e realizza e-commerce B2B e B2C, fornisce consulenza sulle soluzioni tecniche e strategiche più idonee** e, grazie a partnership consolidate, sugli aspetti legali relativi alle normative di diversi Paesi e sulle pratiche necessarie per commercializzare con l'estero. HUM sa quanto tutto questo percorso sia da svolgere con attenzione, minuziosità e competenza, sempre a fianco del cliente: proprio per questo, lavoriamo insieme a partner insieme ai quali vengono fornite consulenze di marketing.
+**HUM progetta e realizza e-commerce B2B e B2C, trova le soluzioni tecniche e strategiche più idonee** e, grazie a partnership consolidate, anche su aspetti legali relativi alle normative di diversi Paesi e pratiche necessarie per commercializzare con l'estero. HUM sa quanto tutto questo percorso sia da svolgere con minuziosità e competenza, sempre a fianco del cliente: anche per questo, collaboriamo con partner per fornire consulenze di marketing.
 
 </LeftParagraph>
 
@@ -68,7 +68,7 @@ HUM crea architetture per siti web e app, realizza piattaforme e-commerce, si oc
 
 <div>
 
-**HUM ha radici solide nel presente e sguardo proiettato al futuro**: proprio per questo elabora e fornisce ricerche nell'ambito di nuove tecnologie, intelligenza artificiale, machine learning, data enegeering e profilazione utenti, grazie a studi continui e matching di competenze.
+**HUM ha radici solide nel presente e sguardo proiettato al futuro**: proprio per questo elabora e fornisce ricerche nell'ambito di nuove tecnologie, intelligenza artificiale, machine learning, data engineering e profilazione utenti, grazie a studi continui e matching di competenze.
 
 </div>
 
@@ -80,7 +80,7 @@ HUM crea architetture per siti web e app, realizza piattaforme e-commerce, si oc
 
 <div>
 
-**Il know how diventa occasione di incontro e apprendimento: la sede di HUM è un centro operativo di studi e crescita per professionisti e stakeholder**, dove si progettano corsi su misura per il cliente e per le risorse interne, iter formativi per le squadre che devono gestire gli e-commerce, percorsi di supporto per startup che vogliono approfondire il project e il risk management, workshop con clienti, colleghi e partner per analizzare prospettive innovative e risultati di ricerche.
+**Il know how diventa occasione di incontro e apprendimento: la sede di HUM è un centro operativo di studi e crescita per professionisti e stakeholder**, dove si progettano corsi su misura per il cliente e per le risorse interne, iter formativi per le squadre che devono gestire gli e-commerce, percorsi di supporto per startup che vogliono approfondire project e risk management, workshop con clienti, colleghi e partner per analizzare prospettive innovative e risultati di ricerche.
 
 </div>
 
