@@ -28,7 +28,7 @@ HUM sa anche che, **dove risiede la forza, risiede la sfida**: grazie all’orga
 
 <div>
 
-l’analisi preliminare e la progettazione **architettonica** del sistema, piattaforma, **sito** o **app** / l’attivazione e il **coordinamento del team** necessario al progetto / il coordinamento della realizzazione di **web products**: siti, applicazioni, e-commerce, piattaforme / il **dialogo operativo** con tutte le professionalità coinvolte / la ricerca di bandi e la progettazione tecnica per l'ottenimento di  **fondi e finanziamenti** che possano agevolare la realizzazione del progetto / studi e **approfondimenti** utili per **valorizzare** al massimo il prodotto creato / relazioni con **partner** / **gestione delle risorse** di partner e stakeholder all’interno del team di progetto/ relazione con le **risorse interne** all’azienda del cliente
+l’analisi preliminare e la progettazione **architettonica** del sistema, piattaforma, **sito** o **app** **/** l’attivazione e il **coordinamento del team** necessario al progetto **/** il coordinamento della realizzazione di **web products**: siti, applicazioni, e-commerce, piattaforme **/** il **dialogo operativo** con tutte le professionalità coinvolte **/** la ricerca di bandi e la progettazione tecnica per l'ottenimento di  **fondi e finanziamenti** che possano agevolare la realizzazione del prodotto **/** studi e **approfondimenti** utili per **valorizzare** al massimo il prodotto creato **/** relazioni con **partner** e **stakeholder** **/** **gestione delle risorse** di partner e stakeholder all’interno del team di progetto **/** relazione con le **risorse interne** all’azienda del **cliente**
 
 
 </div>
