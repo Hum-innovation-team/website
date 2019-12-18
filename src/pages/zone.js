@@ -16,8 +16,10 @@ const shortcodes = {
   PageHeader,
   TitledParagraph,
   HeaderLogo,
-  LeftParagraph: ({ children }) => (
-    <LeftParagraph margin={{ marginTop: "5rem" }}>{children}</LeftParagraph>
+  LeftParagraph: ({ children, borders }) => (
+    <LeftParagraph margin={{ marginTop: "5rem" }} borders={borders}>
+      {children}
+    </LeftParagraph>
   ),
 }
 

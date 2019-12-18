@@ -26,10 +26,48 @@ const leftParagraph = css`
   }
 `
 
-export function LeftParagraph({ children, margin }) {
+export function LeftParagraph({ children, margin, borders }) {
   return (
-    <div className={leftParagraph} style={{ ...margin }}>
-      {children}
+    <div style={{ ...margin }}>
+      <div
+        style={
+          borders
+            ? {
+                position: "absolute",
+                left: "0",
+                width: "50%",
+                borderTop: "2px solid #3d1300",
+              }
+            : {}
+        }
+      />
+
+      <div
+        className={leftParagraph}
+        style={{
+          ...(borders
+            ? {
+                border: "2px solid #3d1300",
+                padding: "2.5rem",
+                marginBottom: borders ? "-2px" : 0,
+              }
+            : {}),
+        }}
+      >
+        {children}
+      </div>
+      <div
+        style={
+          borders
+            ? {
+                position: "absolute",
+                right: "0",
+                width: "50%",
+                borderTop: "2px solid #3d1300",
+              }
+            : {}
+        }
+      />
     </div>
   )
 }

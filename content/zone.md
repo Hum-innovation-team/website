@@ -34,7 +34,7 @@ HUM crea architetture per siti web e app, realizza piattaforme e-commerce, si oc
 
 </TitledParagraph>
 
-<LeftParagraph>
+<LeftParagraph borders>
 
 ## Creazione e-commerce: sviluppo, potenziamento e gestione
 
@@ -50,7 +50,7 @@ HUM crea architetture per siti web e app, realizza piattaforme e-commerce, si oc
 
 </LeftParagraph>
 
-<LeftParagraph>
+<LeftParagraph borders>
 
 ## Project management
 
