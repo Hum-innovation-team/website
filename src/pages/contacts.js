@@ -131,8 +131,18 @@ const form = css`
 function ContactsForm() {
   return (
     <form className={form} method="POST" action="https://formspree.io/mqkeazpw">
-      <FormField type="text" placeholder="Il tuo nome e cognome" name="name" />
-      <FormField type="text" placeholder="indirizzo e-mail" name="_replyto" />
+      <FormField
+        type="text"
+        required
+        placeholder="Il tuo nome e cognome"
+        name="name"
+      />
+      <FormField
+        type="text"
+        required
+        placeholder="indirizzo e-mail"
+        name="_replyto"
+      />
       {/* <FormField type="text" placeholder="il tuo cognome" />
       <FormField type="text" placeholder="nome azienda (facoltativo)" /> */}
       <FormField
@@ -141,6 +151,7 @@ function ContactsForm() {
         name="phone"
       />
       <textarea
+        required
         style={{ padding: "1rem" }}
         className={input}
         type="textarea"
@@ -148,6 +159,22 @@ function ContactsForm() {
         placeholder="Scrivi qui la tua richiesta"
         name="message"
       />
+
+      <div style={{ display: "flex", alignItems: "center", marginTop: "1rem" }}>
+        <input
+          type="checkbox"
+          required
+          name="privacy"
+          style={{ margin: "0.5rem" }}
+        />
+        <label htmlFor="privacy">
+          Dichiaro di aver letto e di accettare la{" "}
+          <a href="https://www.iubenda.com/privacy-policy/41253480">
+            privacy policy
+          </a>
+        </label>
+      </div>
+
       <Submit value="Invia" className={submit} />
     </form>
   )

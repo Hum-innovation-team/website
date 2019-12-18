@@ -16,6 +16,7 @@ module.exports = {
             options: {
               maxWidth: 1400,
               backgroundColor: "none",
+              linkImagesToOriginal: false,
             },
           },
           {

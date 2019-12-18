@@ -168,6 +168,24 @@ textarea {
   box-sizing: border-box;
   padding: 0;
 }
+[type="checkbox"] {
+  -webkit-appearance: none;
+  width: 1.6rem;
+  height: 1.6rem;
+  background: white;
+  border-radius: 5px;
+  border: 2px solid #3d1300;
+  outline: 0;
+}
+[type="checkbox"]:checked:after {
+  content: "✓";
+  color: #3d1300;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
