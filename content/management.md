@@ -2,11 +2,21 @@
 id: "management"
 ---
 
-_"Gatto del Cheshire" Alice cominciò "mi diresti per favore, che strada dovrei prendere da qui?"_
+<PageHeader>
 
-_"Dipende da dove vuoi arrivare" disse il Gatto._
+<div>
 
-_L. Carrol_
+# .manage
+
+_"Gatto del Cheshire" Alice cominciò "mi diresti per favore, che strada dovrei prendere da qui?"_<br/>
+_"Dipende da dove vuoi arrivare" disse il Gatto._<br/>
+_L. Carrol_<br/>
+
+</div>
+
+<HeaderLogo />
+
+</PageHeader>
 
 È proprio con spirito sempre focalizzato sull'obiettivo che HUM si approccia al **project management**, occupandosi di tutti gli aspetti necessari per la realizzazione di percorsi articolati e progettazioni multiformi, accompagnando il cliente lungo la miglior strada, tenendo presente il monito del Gatto ad Alice: **la differenza la fa dove si vuole andare.**
 
