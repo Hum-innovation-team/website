@@ -22,13 +22,13 @@ _Quando la tecnica incontra l'intuizione, diventa innovazione.<br/>Quando la com
 
 Il termine HUM, in inglese, indica un **suono di fondo discreto e persistente**, che accompagna il momento presente con costanza, senza mai essere troppo forte, né troppo debole.
 È proprio in questo modo che HUM affianca il tuo business, elaborando percorsi orientati alla crescita, all'evoluzione e alla trasformazione produttiva.
-**Realizzazione di piattaforme e-commerce, consulenza per la gestione e management di progetti**
+
 
 </LeftParagraph>
 
 <TitledParagraph>
 
-## Consulenza professionale nella gestione delle attività e-commerce.
+## Realizzazione di piattaforme e-commerce, consulenza per la gestione e management di progetti
 
 <div>
 
