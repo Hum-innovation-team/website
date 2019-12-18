@@ -6,7 +6,7 @@ id: "management"
 
 <div>
 
-# .manage
+# .management
 
 _"Gatto del Cheshire" Alice cominciò "mi diresti per favore, che strada dovrei prendere da qui?"_<br/>
 _"Dipende da dove vuoi arrivare" disse il Gatto._<br/>
