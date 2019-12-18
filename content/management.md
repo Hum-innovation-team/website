@@ -26,14 +26,7 @@ HUM sa tenere gli occhi fissi sul **dove**, e sa che la forza di un progetto è 
 
 <div>
 
-- l’analisi preliminare e la progettazione architettonica del sistema/piattaforma/sito
-- l'attivazione e il coordinamento del team necessario al progetto
-- il coordinamento della realizzazione di web products: siti, applicazioni, e-commerce, piattaforme
-- il dialogo operativo con tutte le professionalità coinvolte
-- consulenza completa per aspetti legali
-- la ricerca di bandi, fondi e finanziamenti che possano agevolare la realizzazione del progetto
-- studi e approfondimenti utili per valorizzare al massimo il prodotto creato
-- relazioni con partner
+l’analisi preliminare e la progettazione architettonica del sistema/piattaforma/sito**/** l'attivazione e il coordinamento del team necessario al progetto **/** il coordinamento della realizzazione di web products: siti, applicazioni, e-commerce, piattaforme **/** il dialogo operativo con tutte le professionalità coinvolte **/** la ricerca di bandi, fondi e finanziamenti che possano agevolare la realizzazione del progetto **/** studi e approfondimenti utili per valorizzare al massimo il prodotto creato **/** relazioni con partner **/** gestione dei team di partner e stackholder **/** relazione con le risorse interne all'azienda del cliente
 
 
 </div>
