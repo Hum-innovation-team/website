@@ -8,7 +8,7 @@ id: "home"
   <GenericLink to="/zone">scopri di più</GenericLink>
 </AlignRight>
 
-![box](../src/assets/images/home-box.png)
+![box](../src/assets/images/Wireframe_Head.png)
 
 <HomeBody>
 
