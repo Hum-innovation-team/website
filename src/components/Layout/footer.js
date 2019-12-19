@@ -3,7 +3,7 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 import { css } from "linaria"
 
 import * as colors from "../../shared/constants/colors"
-import footerLogo from "../../assets/images/footer-logo.png"
+import footerLogo from "../../assets/images/LogoScuro.png"
 import mail from "../../assets/images/mail.png"
 import linkedin from "../../assets/images/in.png"
 
@@ -80,7 +80,7 @@ export default function Footer() {
           src={footerLogo}
           alt="logo footer"
           className={footerLogoStyle}
-          style={{ alignSelf: "baseline" }}
+          style={{ alignSelf: "baseline", maxWidth: "80px" }}
         />
         <div style={{ width: "6.1rem" }}>
           <Link to={frontmatter.societyData}>Dati societari</Link>

@@ -3,7 +3,7 @@ import React from "react"
 import { css } from "linaria"
 
 import * as colors from "../../shared/constants/colors"
-import logo from "../../assets/images/logo.png"
+import logo from "../../assets/images/LogoGiallo.png"
 
 const rightSlogan = css`
   display: flex;
