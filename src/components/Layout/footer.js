@@ -1,9 +1,11 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import { css } from "linaria"
 
 import * as colors from "../../shared/constants/colors"
 import footerLogo from "../../assets/images/footer-logo.png"
+import mail from "../../assets/images/mail.png"
+import linkedin from "../../assets/images/in.png"
 
 const footerLogoStyle = css`
   @media only screen and (max-width: 750px) {
@@ -15,9 +17,7 @@ const footerLogoStyle = css`
 `
 
 const usefulLinks = css`
-  width: 6.1rem;
-
-  > a {
+  a {
     text-decoration: none;
     display: block;
     font-size: 0.875rem;
@@ -28,6 +28,15 @@ const usefulLinks = css`
   }
 `
 
+const socialRow = css`
+  display: flex;
+  align-items: center;
+
+  > :first-child {
+    margin-right: 0.5rem;
+  }
+`
+
 export default function Footer() {
   const {
     mdx: { frontmatter },
@@ -35,7 +44,8 @@ export default function Footer() {
     query footerQuery {
       mdx(frontmatter: { id: { eq: "footer" } }) {
         frontmatter {
-          info
+          mail
+          linkedin
           piva
           societyData
           privacyPolicy
@@ -46,6 +56,7 @@ export default function Footer() {
 
   return (
     <footer
+      className={usefulLinks}
       style={{
         maxWidth: "1200px",
         margin: "5rem auto 0 auto",
@@ -71,14 +82,8 @@ export default function Footer() {
           className={footerLogoStyle}
           style={{ alignSelf: "baseline" }}
         />
-        <div className={usefulLinks}>
-          <a
-            href={frontmatter.societyData}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Dati societari
-          </a>
+        <div style={{ width: "6.1rem" }}>
+          <Link to={frontmatter.societyData}>Dati societari</Link>
           <a
             href={frontmatter.privacyPolicy}
             target="_blank"
@@ -87,7 +92,22 @@ export default function Footer() {
             Privacy policy
           </a>
         </div>
-        <span style={{ width: "8.875rem" }}>{frontmatter.info}</span>
+        <span style={{ width: "8.875rem" }}>
+          <span className={socialRow}>
+            <img src={mail} style={{ width: "16px" }} alt="mail" />
+            <a href={`mailto:${frontmatter.mail}`}>{frontmatter.mail}</a>
+          </span>
+          <span className={socialRow}>
+            <img src={linkedin} style={{ width: "16px" }} alt="linkedin" />
+            <a
+              href={frontmatter.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Linkedin
+            </a>
+          </span>
+        </span>
       </div>
       <span>{`P.IVA ${frontmatter.piva}`}</span>
     </footer>

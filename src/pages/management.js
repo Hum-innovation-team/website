@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { MDXProvider } from "@mdx-js/react"
+import { css } from "linaria"
 
 import Layout from "../components/Layout"
 import { Accordion } from "../components/buttons"
@@ -11,19 +12,43 @@ import HeaderLogo from "../components/HeaderLogo"
 import PageHeader from "../components/PageHeader"
 import TitledParagraph from "../components/TitledParagraph"
 
-function ExpertBody({ children }) {
+const title = css`
+  h1 {
+    font-size: 8rem;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    h1 {
+      font-size: 6rem;
+    }
+  }
+  @media only screen and (max-width: 850px) {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    h1 {
+      font-size: 3.2rem;
+    }
+  }
+`
+
+function ManagementTitle() {
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>{children}</div>
+    <div className={title}>
+      <h1>.management</h1>
+    </div>
   )
 }
 
 const shortcodes = {
   Accordion,
   PageHeader,
-  ExpertBody,
   LeftParagraph,
   TitledParagraph,
   HeaderLogo,
+  ManagementTitle,
   AlignRight,
   Link,
 }

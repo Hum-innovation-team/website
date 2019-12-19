@@ -1,7 +1,21 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { css } from "linaria"
 
-import logo from "../assets/images/header-logo.png"
+import h from "../assets/images/letters/h.png"
+import t from "../assets/images/letters/t.png"
+import m from "../assets/images/letters/m.png"
+import z from "../assets/images/letters/z.png"
+import e from "../assets/images/letters/e.png"
+import c from "../assets/images/letters/c.png"
+
+const icons = {
+  "": h,
+  code: c,
+  management: m,
+  zone: z,
+  team: t,
+  expert: e,
+}
 
 const headerLogo = css`
   width: 200px;
@@ -16,7 +30,21 @@ const headerLogo = css`
 `
 
 const HeaderLogo = () => {
-  return <img src={logo} className={headerLogo} alt="logo" />
+  const [icon, setIcon] = useState("")
+
+  useEffect(() => {
+    if (window) {
+      setIcon(window.location.pathname.replace(/\//g, ""))
+    }
+  }, [typeof window !== "undefined" ? window.location.pathname : null])
+
+  return (
+    <img
+      src={icon ? icons[icon] : icons[""]}
+      className={headerLogo}
+      alt="logo"
+    />
+  )
 }
 
 export default HeaderLogo

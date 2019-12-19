@@ -1,8 +1,8 @@
 ---
 id: "footer"
-societyData: "http://www.hum.srl/contacts"
+societyData: "/contacts"
 privacyPolicy: "https://www.iubenda.com/privacy-policy/41253480"
-info: "contact@hum.srl
-Linkedin"
+mail: "contact@hum.srl"
+linkedin: "https://www.linkedin.com/company/hum-innovation/"
 piva: "IT03671581209"
 ---
