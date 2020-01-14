@@ -56,13 +56,6 @@ export function Accordion({ children, iconElement, label }) {
   )
 }
 
-export function Submit({ value, onPress, className }) {
-  return (
-    <input
-      type="submit"
-      value={value}
-      onPress={onPress}
-      className={className}
-    />
-  )
+export function Submit({ value, className }) {
+  return <input type="submit" value={value} className={className} />
 }

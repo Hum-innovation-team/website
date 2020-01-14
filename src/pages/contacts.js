@@ -126,6 +126,10 @@ const form = css`
   > textarea {
     margin-top: 0.625rem;
   }
+
+  @media only screen and (max-width: 750px) {
+    margin-left: 0;
+  }
 `
 
 function ContactsForm() {
