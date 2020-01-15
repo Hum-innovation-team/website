@@ -108,9 +108,20 @@ export default function Footer() {
             >
               Privacy policy
             </a>
-            <button type="button" onClick={() => setOpenData(!openData)}>
+            <button
+              type="button"
+              style={{ cursor: "pointer", outline: 0 }}
+              onClick={() => {
+                setOpenData(!openData)
+                window.scrollTo({
+                  bottom: document.body.scrollHeight + 120,
+                  behavior: "smooth",
+                })
+              }}
+            >
               Dati societari
             </button>
+            <Link to="/en/contacts">Inglese</Link>
           </div>
           <span style={{ width: "8.875rem" }}>
             <span className={socialRow}>

@@ -7,6 +7,14 @@ module.exports = {
   plugins: [
     "gatsby-plugin-linaria",
     {
+      resolve: "gatsby-plugin-i18n",
+      options: {
+        langKeyDefault: "it",
+        prefixDefault: false,
+        useLangKeyLayout: false,
+      },
+    },
+    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [".mdx", ".md"],
