@@ -113,15 +113,18 @@ export default function Footer() {
               style={{ cursor: "pointer", outline: 0 }}
               onClick={() => {
                 setOpenData(!openData)
-                window.scrollTo({
-                  bottom: document.body.scrollHeight + 120,
-                  behavior: "smooth",
-                })
+                const element = document.getElementById("expanded-text")
+                setTimeout(() => {
+                  element.scrollIntoView({
+                    behavior: "smooth",
+                    block: "end",
+                  })
+                }, 500)
               }}
             >
               Dati societari
             </button>
-            <Link to="/en/contacts">Inglese</Link>
+            <Link to="/en">Inglese</Link>
           </div>
           <span style={{ width: "8.875rem" }}>
             <span className={socialRow}>
@@ -152,6 +155,7 @@ export default function Footer() {
         <span>{`P.IVA ${frontmatter.piva}`}</span>
       </footer>
       <p
+        id="expanded-text"
         style={{
           lineHeight: "1.5rem",
           margin: "2rem 0 0 2rem",

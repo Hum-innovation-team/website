@@ -186,7 +186,7 @@ const IndexPage = () => {
     mdx: { body },
   } = useStaticQuery(graphql`
     query contactsEnQuery {
-      mdx(frontmatter: { id: { eq: "contacts" } }) {
+      mdx(frontmatter: { id: { eq: "contacts-en" } }) {
         body
       }
     }
