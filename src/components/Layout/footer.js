@@ -124,7 +124,7 @@ export default function Footer() {
             >
               Dati societari
             </button>
-            <Link to="/en">Inglese</Link>
+            {/* <Link to="/en">Inglese</Link> */}
           </div>
           <span style={{ width: "8.875rem" }}>
             <span className={socialRow}>

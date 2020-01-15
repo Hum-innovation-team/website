@@ -35,7 +35,7 @@ const HeaderLogo = () => {
   useEffect(() => {
     if (window) {
       const first = window.location.pathname.replace(/\//g, "")
-      setIcon(first.replace("en", ""))
+      setIcon(first.replace(/^en/, ""))
     }
   }, [typeof window !== "undefined" ? window.location.pathname : null])
 
