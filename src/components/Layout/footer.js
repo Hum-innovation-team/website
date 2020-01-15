@@ -115,7 +115,16 @@ export default function Footer() {
           <span style={{ width: "8.875rem" }}>
             <span className={socialRow}>
               <img src={mail} style={{ width: "16px" }} alt="mail" />
-              <a href={`mailto:${obfuscatedMail()}`}>EMAIL</a>
+              <button
+                style={{ cursor: "pointer" }}
+                type="button"
+                onClick={() => {
+                  const obf = obfuscatedMail()
+                  window.location.replace(`mailto:${obf}`)
+                }}
+              >
+                EMAIL
+              </button>
             </span>
             <span className={socialRow}>
               <img src={linkedin} style={{ width: "16px" }} alt="linkedin" />
