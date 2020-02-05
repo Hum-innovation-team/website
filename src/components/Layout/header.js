@@ -56,7 +56,7 @@ const NavItem = ({ to, children, style }) => (
       color: colors.brown,
       fontSize: "1rem",
       textDecoration: "none",
-      padding: "0.5rem 1rem",
+      padding: "0.5rem .7rem",
       ...(style || {}),
     }}
     activeStyle={{ color: colors.yellow }}
@@ -78,12 +78,13 @@ const Header = () => {
             <NavItem to="/expert">.expert</NavItem>
             <NavItem to="/team">.team</NavItem>
             <NavItem to="/management">.management</NavItem>
-            {/* TODO <NavItem to="/codes">.codes</NavItem> */}
+            <NavItem to="/code">.code</NavItem>
             <NavItem
               to="/contacts"
               style={{
                 border: "1px solid #3D1300",
                 padding: "0.5rem calc(1rem - 1px)",
+                margin: "0.5rem",
               }}
             >
               contatti

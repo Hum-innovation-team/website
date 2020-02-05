@@ -14,7 +14,7 @@ id: "home"
 
 ## HUM, tecnologia e intuizione.
 
-Creiamo architetture web per l'innovazione e realizziamo siti, app e progetti 
+Creiamo architetture web per l'innovazione e realizziamo siti, app e progetti
 per trasformare il presente e generare il futuro.
 
 </HomeBody>

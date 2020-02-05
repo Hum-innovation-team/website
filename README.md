@@ -32,7 +32,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque libero, l
 
 ### frontmatter
 
-Il frontmatter è il contenuto incluso tra i tre trattini:
+Il frontmatter è il contenuto incluso all'inizio degli md:
 
 ```md
 ---
@@ -41,4 +41,4 @@ btn1: "scopri"
 ---
 ```
 
-lo usiamo per accoppiare pagine visive con il contenuto markdown attraverso il campo `id` e per fornire le info al footer.
+lo usiamo per accoppiare pagine visive con il contenuto markdown attraverso il campo `id`.
