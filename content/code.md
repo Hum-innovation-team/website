@@ -8,7 +8,7 @@ id: "code"
 
 # .code
 
-_"La semplicità è una grande virtù, ma occorre un duro lavoro per raggiungerla nonché educazione per apprezzarla. E come se non bastasse: la cose complesse si vendono meglio" (Edsger Dijkstra)_
+_"La semplicità è una grande virtù, ma occorre un duro lavoro per raggiungerla nonché educazione per apprezzarla. E come se non bastasse: la complessità vende meglio" (Edsger Dijkstra)_
 
 </div>
 
