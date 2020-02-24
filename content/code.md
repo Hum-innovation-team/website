@@ -92,8 +92,8 @@ Questo è un paragrafo
 
 È facile immaginare le potenzialità di uno strumento del genere: sicuro e di ampie possibilità di funzionamento e seppur queste tecnologie sono relativamente nuove e hanno ancora della strada da fare, siamo sicuri che non appena raggiungeranno una certa semplicità di utilizzo da parte di editori, writer, blogger e content creator in generale, diventerà il "standard de facto" nel web.
 
-<p><span style="font-size: 30px; font-weight: bold;"> Hanno contribuito alla realizzazione di hum.srl:</span></p>
+<p><span style="font-size: 18px; font-weight: bold;"> Hanno contribuito alla realizzazione di hum.srl:</span></p>
 
-@Silvia.Bernardi(https://www.linkedin.com/in/silvia-bernardi-comunicazione/) micro copy/UX Writing<br/>
+[@Silvia.Bernardi](https://www.linkedin.com/in/silvia-bernardi-comunicazione/) micro copy/UX Writing<br/>
 [@Giacomo.Cerquone](https://giacomocerquone.com/) code/dev<br/>
 [@TrapStudio](https://www.trapstudio.it/) UI/UX<br/>
