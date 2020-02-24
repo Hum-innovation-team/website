@@ -92,6 +92,8 @@ Questo è un paragrafo
 
 È facile immaginare le potenzialità di uno strumento del genere: sicuro e di ampie possibilità di funzionamento e seppur queste tecnologie sono relativamente nuove e hanno ancora della strada da fare, siamo sicuri che non appena raggiungeranno una certa semplicità di utilizzo da parte di editori, writer, blogger e content creator in generale, diventerà il "standard de facto" nel web.
 
+Questa è la prima release del sito, ma stiamo già lavorando alla sua evoluzione, e ne vedrete delle belle. Vogliamo che il nostro sito sia la DEMO del nostro modo di lavorare e pensare il web.
+
 <p><span style="font-size: 18px; font-weight: bold;"> Hanno contribuito alla realizzazione di hum.srl:</span></p>
 
 [@Silvia.Bernardi](https://www.linkedin.com/in/silvia-bernardi-comunicazione/) micro copy/UX Writing<br/>
