@@ -26,4 +26,10 @@ La squadra di HUM è pronta per soddisfare le necessità del progetto che viene 
 
 </div>
 
+<div>
+HUM è soprattutto RETE, una  rete costruita negli anni, fatta di professionisti e aziende che vedono il web dal suo interno.
+Nel sito non c'è una pagina di lavori fatti e non vengono esposte liste di clienti perché HUM è l'architetto e il direttore dei lavori, spesso "l'impresa di costruzioni" è un nostro partner, ed è lui ad esporre i risultati. 
+   
+  </div>
+
 </TitledParagraph>
