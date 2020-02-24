@@ -43,14 +43,12 @@ template {
   display: none;
 }
 a {
-  font-weight: bold;
-  color: white;
-
+  color: black;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 a:link {
-  color: white;
+  color: black;
   }
 a:active,
 a:hover {
