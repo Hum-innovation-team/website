@@ -26,8 +26,6 @@ La squadra di HUM è pronta per soddisfare le necessità del progetto che viene 
 
 </div>
 
-<br>
-
 <div>
    
 HUM è soprattutto RETE, una  rete costruita negli anni, fatta di professionisti e aziende che vedono il web dal suo interno.
