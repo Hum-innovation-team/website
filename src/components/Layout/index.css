@@ -43,6 +43,8 @@ template {
   display: none;
 }
 a {
+  color: white;
+
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
